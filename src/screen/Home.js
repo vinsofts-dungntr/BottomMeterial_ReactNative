@@ -1,7 +1,7 @@
 
 import React, {Component} from 'react';
 import {Image, StyleSheet, Text, View} from 'react-native';
-
+import {TopContainer} from '../Router';
 
 
 export default class HomeScreen extends Component {
@@ -14,9 +14,10 @@ export default class HomeScreen extends Component {
     }
   render() {
     return (
-      <View style={{alignItems:'center'}}>
-          <Text>HomeScreen</Text>
-      </View>
+    //   <View style={{alignItems:'center'}}>
+    //       <Text>HomeScreen</Text>
+    //   </View>
+    <TopContainer/>
     );
   }
 }
